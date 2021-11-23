@@ -236,6 +236,33 @@ fireworks/fast:
 	$(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build.make .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build
 .PHONY : fireworks/fast
 
+src/car.o: src/car.cxx.o
+.PHONY : src/car.o
+
+# target to build an object file
+src/car.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/car.cxx.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/car.cxx.o
+.PHONY : src/car.cxx.o
+
+src/car.i: src/car.cxx.i
+.PHONY : src/car.i
+
+# target to preprocess a source file
+src/car.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/car.cxx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/car.cxx.i
+.PHONY : src/car.cxx.i
+
+src/car.s: src/car.cxx.s
+.PHONY : src/car.s
+
+# target to generate assembly for a file
+src/car.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/car.cxx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/car.cxx.s
+.PHONY : src/car.cxx.s
+
 src/controller.o: src/controller.cxx.o
 .PHONY : src/controller.o
 
@@ -377,6 +404,9 @@ help:
 	@echo "... game"
 	@echo "... ge211"
 	@echo "... model_test"
+	@echo "... src/car.o"
+	@echo "... src/car.i"
+	@echo "... src/car.s"
 	@echo "... src/controller.o"
 	@echo "... src/controller.i"
 	@echo "... src/controller.s"

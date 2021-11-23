@@ -185,29 +185,29 @@ catch/fast:
 	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/build
 .PHONY : catch/fast
 
-__/__/__/src/player.o: __/__/__/src/player.cxx.o
-.PHONY : __/__/__/src/player.o
+__/__/__/src/car.o: __/__/__/src/car.cxx.o
+.PHONY : __/__/__/src/car.o
 
 # target to build an object file
-__/__/__/src/player.cxx.o:
-	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/player.cxx.o
-.PHONY : __/__/__/src/player.cxx.o
+__/__/__/src/car.cxx.o:
+	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/car.cxx.o
+.PHONY : __/__/__/src/car.cxx.o
 
-__/__/__/src/player.i: __/__/__/src/player.cxx.i
-.PHONY : __/__/__/src/player.i
+__/__/__/src/car.i: __/__/__/src/car.cxx.i
+.PHONY : __/__/__/src/car.i
 
 # target to preprocess a source file
-__/__/__/src/player.cxx.i:
-	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/player.cxx.i
-.PHONY : __/__/__/src/player.cxx.i
+__/__/__/src/car.cxx.i:
+	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/car.cxx.i
+.PHONY : __/__/__/src/car.cxx.i
 
-__/__/__/src/player.s: __/__/__/src/player.cxx.s
-.PHONY : __/__/__/src/player.s
+__/__/__/src/car.s: __/__/__/src/car.cxx.s
+.PHONY : __/__/__/src/car.s
 
 # target to generate assembly for a file
-__/__/__/src/player.cxx.s:
-	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/player.cxx.s
-.PHONY : __/__/__/src/player.cxx.s
+__/__/__/src/car.cxx.s:
+	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/car.cxx.s
+.PHONY : __/__/__/src/car.cxx.s
 
 src/catch.o: src/catch.cxx.o
 .PHONY : src/catch.o
@@ -247,9 +247,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... catch"
-	@echo "... __/__/__/src/player.o"
-	@echo "... __/__/__/src/player.i"
-	@echo "... __/__/__/src/player.s"
+	@echo "... __/__/__/src/car.o"
+	@echo "... __/__/__/src/car.i"
+	@echo "... __/__/__/src/car.s"
 	@echo "... src/catch.o"
 	@echo "... src/catch.i"
 	@echo "... src/catch.s"

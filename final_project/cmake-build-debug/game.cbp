@@ -382,6 +382,14 @@
 		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_window.cxx">
 			<Option target="ge211"/>
 		</Unit>
+		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/car.cxx">
+			<Option target="model_test"/>
+			<Option target="game"/>
+			<Option target="catch"/>
+		</Unit>
+		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/car.hxx">
+			<Option target="catch"/>
+		</Unit>
 		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/controller.cxx">
 			<Option target="game"/>
 		</Unit>
@@ -398,12 +406,6 @@
 		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/model.hxx">
 			<Option target="model_test"/>
 			<Option target="game"/>
-		</Unit>
-		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/player.cxx">
-			<Option target="catch"/>
-		</Unit>
-		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/player.hxx">
-			<Option target="catch"/>
 		</Unit>
 		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/view.cxx">
 			<Option target="game"/>

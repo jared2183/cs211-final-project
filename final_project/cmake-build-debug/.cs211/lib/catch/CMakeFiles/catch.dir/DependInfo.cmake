@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/player.cxx" "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/player.cxx.o"
+  "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/car.cxx" "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/car.cxx.o"
   "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/catch/src/catch.cxx" "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
