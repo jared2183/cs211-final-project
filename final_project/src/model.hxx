@@ -4,5 +4,8 @@
 
 class Model
 {
+private:
+
+public:
 
 };

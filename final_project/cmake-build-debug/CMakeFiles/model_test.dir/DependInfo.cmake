@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/jared/Downloads/final_project/src/model.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/CMakeFiles/model_test.dir/src/model.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/test/model_test.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/CMakeFiles/model_test.dir/test/model_test.cxx.obj"
+  "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/model.cxx" "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/model_test.dir/src/model.cxx.o"
+  "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/test/model_test.cxx" "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/model_test.dir/test/model_test.cxx.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -24,7 +24,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../.cs211/lib/catch/include"
   "../.cs211/lib/ge211/src/../include"
   ".cs211/lib/ge211/src/../include"
-  "C:/MinGW/include/SDL2"
+  "/opt/homebrew/include/SDL2"
   )
 
 # The set of dependency files which are needed:
@@ -33,8 +33,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/DependInfo.cmake"
-  "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/DependInfo.cmake"
+  "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/DependInfo.cmake"
+  "/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

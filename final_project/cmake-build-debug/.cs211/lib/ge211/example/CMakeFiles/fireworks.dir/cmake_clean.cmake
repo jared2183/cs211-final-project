@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fireworks.dir/fireworks.cxx.obj"
-  "fireworks.exe"
-  "fireworks.exe.manifest"
+  "CMakeFiles/fireworks.dir/fireworks.cxx.o"
+  "fireworks"
   "fireworks.pdb"
-  "libfireworks.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
