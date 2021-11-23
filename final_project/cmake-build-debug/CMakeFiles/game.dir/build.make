@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jared\Downloads\final_project
+CMAKE_SOURCE_DIR = C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jared\Downloads\final_project\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game.dir/depend.make
@@ -68,58 +68,58 @@ include CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/model.cxx.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/model.cxx.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/model.cxx.obj: ../src/model.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jared\Downloads\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/model.cxx.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\model.cxx.obj -c C:\Users\jared\Downloads\final_project\src\model.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/model.cxx.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\model.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\model.cxx
 
 CMakeFiles/game.dir/src/model.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/model.cxx.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jared\Downloads\final_project\src\model.cxx > CMakeFiles\game.dir\src\model.cxx.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\model.cxx > CMakeFiles\game.dir\src\model.cxx.i
 
 CMakeFiles/game.dir/src/model.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/model.cxx.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jared\Downloads\final_project\src\model.cxx -o CMakeFiles\game.dir\src\model.cxx.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\model.cxx -o CMakeFiles\game.dir\src\model.cxx.s
 
 CMakeFiles/game.dir/src/view.cxx.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/view.cxx.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/view.cxx.obj: ../src/view.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jared\Downloads\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/view.cxx.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\view.cxx.obj -c C:\Users\jared\Downloads\final_project\src\view.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/view.cxx.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\view.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\view.cxx
 
 CMakeFiles/game.dir/src/view.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/view.cxx.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jared\Downloads\final_project\src\view.cxx > CMakeFiles\game.dir\src\view.cxx.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\view.cxx > CMakeFiles\game.dir\src\view.cxx.i
 
 CMakeFiles/game.dir/src/view.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/view.cxx.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jared\Downloads\final_project\src\view.cxx -o CMakeFiles\game.dir\src\view.cxx.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\view.cxx -o CMakeFiles\game.dir\src\view.cxx.s
 
 CMakeFiles/game.dir/src/controller.cxx.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/controller.cxx.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/controller.cxx.obj: ../src/controller.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jared\Downloads\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/controller.cxx.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\controller.cxx.obj -c C:\Users\jared\Downloads\final_project\src\controller.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/controller.cxx.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\controller.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\controller.cxx
 
 CMakeFiles/game.dir/src/controller.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/controller.cxx.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jared\Downloads\final_project\src\controller.cxx > CMakeFiles\game.dir\src\controller.cxx.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\controller.cxx > CMakeFiles\game.dir\src\controller.cxx.i
 
 CMakeFiles/game.dir/src/controller.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/controller.cxx.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jared\Downloads\final_project\src\controller.cxx -o CMakeFiles\game.dir\src\controller.cxx.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\controller.cxx -o CMakeFiles\game.dir\src\controller.cxx.s
 
 CMakeFiles/game.dir/src/main.cxx.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/main.cxx.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/main.cxx.obj: ../src/main.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jared\Downloads\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/main.cxx.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\main.cxx.obj -c C:\Users\jared\Downloads\final_project\src\main.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/main.cxx.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\main.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\main.cxx
 
 CMakeFiles/game.dir/src/main.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/main.cxx.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jared\Downloads\final_project\src\main.cxx > CMakeFiles\game.dir\src\main.cxx.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\main.cxx > CMakeFiles\game.dir\src\main.cxx.i
 
 CMakeFiles/game.dir/src/main.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/main.cxx.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jared\Downloads\final_project\src\main.cxx -o CMakeFiles\game.dir\src\main.cxx.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\main.cxx -o CMakeFiles\game.dir\src\main.cxx.s
 
 # Object files for target game
 game_OBJECTS = \
@@ -144,7 +144,7 @@ game.exe: C:/MinGW/lib/libSDL2_ttf.dll.a
 game.exe: CMakeFiles/game.dir/linklibs.rsp
 game.exe: CMakeFiles/game.dir/objects1.rsp
 game.exe: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jared\Downloads\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable game.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable game.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\game.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +156,6 @@ CMakeFiles/game.dir/clean:
 .PHONY : CMakeFiles/game.dir/clean
 
 CMakeFiles/game.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\jared\Downloads\final_project C:\Users\jared\Downloads\final_project C:\Users\jared\Downloads\final_project\cmake-build-debug C:\Users\jared\Downloads\final_project\cmake-build-debug C:\Users\jared\Downloads\final_project\cmake-build-debug\CMakeFiles\game.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles\game.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/game.dir/depend
 

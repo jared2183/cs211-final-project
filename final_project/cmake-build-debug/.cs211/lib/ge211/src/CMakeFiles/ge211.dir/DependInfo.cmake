@@ -8,25 +8,25 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_audio.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_base.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_color.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_engine.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_error.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_event.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_geometry.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_random.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_render.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_resource.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_session.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_sprites.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/ge211_window.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_audio.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_base.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_color.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_engine.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_error.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_event.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_geometry.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_random.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_render.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_resource.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_session.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_sprites.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_window.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "GE211_RESOURCES=\"C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/../Resources/\",\"C:/Program Files (x86)/game/share/ge211/\""
+  "GE211_RESOURCES=\"C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/../Resources/\",\"C:/Program Files (x86)/game/share/ge211/\""
   )
 
 # The include file search paths:

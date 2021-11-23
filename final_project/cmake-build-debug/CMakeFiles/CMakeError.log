@@ -1,20 +1,20 @@
 Performing C++ SOURCE FILE Test LDFLAG_FSANITIZE_UNDEFINED_OKAY failed with the following output:
-Change Dir: C:/Users/jared/Downloads/final_project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_adc40/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_adc40.dir\build.make CMakeFiles/cmTC_adc40.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/jared/Downloads/final_project/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_adc40.dir/src.cxx.obj
-C:\MinGW\bin\g++.exe -DLDFLAG_FSANITIZE_UNDEFINED_OKAY  -fsanitize=undefined  -o CMakeFiles\cmTC_adc40.dir\src.cxx.obj -c C:\Users\jared\Downloads\final_project\cmake-build-debug\CMakeFiles\CMakeTmp\src.cxx
-Linking CXX executable cmTC_adc40.exe
-"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_adc40.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_adc40.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_adc40.dir/objects.a @CMakeFiles\cmTC_adc40.dir\objects1.rsp
-C:\MinGW\bin\g++.exe  -fsanitize=undefined  -Wl,--whole-archive CMakeFiles\cmTC_adc40.dir/objects.a -Wl,--no-whole-archive -o cmTC_adc40.exe -Wl,--out-implib,libcmTC_adc40.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_adc40.dir\linklibs.rsp
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_36f82/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_36f82.dir\build.make CMakeFiles/cmTC_36f82.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36f82.dir/src.cxx.obj
+C:\MinGW\bin\g++.exe -DLDFLAG_FSANITIZE_UNDEFINED_OKAY  -fsanitize=undefined  -o CMakeFiles\cmTC_36f82.dir\src.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_36f82.exe
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_36f82.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_36f82.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_36f82.dir/objects.a @CMakeFiles\cmTC_36f82.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -fsanitize=undefined  -Wl,--whole-archive CMakeFiles\cmTC_36f82.dir/objects.a -Wl,--no-whole-archive -o cmTC_36f82.exe -Wl,--out-implib,libcmTC_36f82.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_36f82.dir\linklibs.rsp
 C:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lubsan
 collect2.exe: error: ld returned 1 exit status
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_adc40.dir\build.make:100: cmTC_adc40.exe] Error 1
-mingw32-make.exe[1]: Leaving directory 'C:/Users/jared/Downloads/final_project/cmake-build-debug/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_adc40/fast] Error 2
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_36f82.dir\build.make:100: cmTC_36f82.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_36f82/fast] Error 2
 
 
 Source file was:

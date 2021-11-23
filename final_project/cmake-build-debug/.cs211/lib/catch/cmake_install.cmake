@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jared/Downloads/final_project/.cs211/lib/catch
+# Install script for directory: C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/catch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/catch/libcatch.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch/libcatch.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/jared/Downloads/final_project/.cs211/lib/catch/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/catch/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cmake/Catch2/Catch2Config.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cmake/Catch2/Catch2Config.cmake"
-         "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/Export/share/cmake/Catch2/Catch2Config.cmake")
+         "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/Export/share/cmake/Catch2/Catch2Config.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cmake/Catch2/Catch2Config-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -58,13 +58,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/Catch2" TYPE FILE FILES "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/Export/share/cmake/Catch2/Catch2Config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/Catch2" TYPE FILE FILES "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/Export/share/cmake/Catch2/Catch2Config.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/Catch2" TYPE FILE FILES "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/Export/share/cmake/Catch2/Catch2Config-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/Catch2" TYPE FILE FILES "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/Export/share/cmake/Catch2/Catch2Config-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/Catch2" TYPE FILE FILES "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/catch/Catch2/Catch2ConfigVersion.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/Catch2" TYPE FILE FILES "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch/Catch2/Catch2ConfigVersion.cmake")
 endif()
 

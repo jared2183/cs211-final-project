@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/3rdparty/utf8-cpp
+# Install script for directory: C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/3rdparty/utf8-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

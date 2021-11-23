@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jared\Downloads\final_project
+CMAKE_SOURCE_DIR = C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jared\Downloads\final_project\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/depend.make
@@ -68,16 +68,16 @@ include .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/flags.make
 .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.obj: .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/flags.make
 .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.obj: .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/includes_CXX.rsp
 .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.obj: ../.cs211/lib/ge211/example/fireworks.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jared\Downloads\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.obj"
-	cd /d C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\ge211\example && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fireworks.dir\fireworks.cxx.obj -c C:\Users\jared\Downloads\final_project\.cs211\lib\ge211\example\fireworks.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.obj"
+	cd /d C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\ge211\example && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\fireworks.dir\fireworks.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\.cs211\lib\ge211\example\fireworks.cxx
 
 .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fireworks.dir/fireworks.cxx.i"
-	cd /d C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\ge211\example && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jared\Downloads\final_project\.cs211\lib\ge211\example\fireworks.cxx > CMakeFiles\fireworks.dir\fireworks.cxx.i
+	cd /d C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\ge211\example && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\.cs211\lib\ge211\example\fireworks.cxx > CMakeFiles\fireworks.dir\fireworks.cxx.i
 
 .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fireworks.dir/fireworks.cxx.s"
-	cd /d C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\ge211\example && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jared\Downloads\final_project\.cs211\lib\ge211\example\fireworks.cxx -o CMakeFiles\fireworks.dir\fireworks.cxx.s
+	cd /d C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\ge211\example && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\.cs211\lib\ge211\example\fireworks.cxx -o CMakeFiles\fireworks.dir\fireworks.cxx.s
 
 # Object files for target fireworks
 fireworks_OBJECTS = \
@@ -96,18 +96,18 @@ fireworks_EXTERNAL_OBJECTS =
 .cs211/lib/ge211/example/fireworks.exe: .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/linklibs.rsp
 .cs211/lib/ge211/example/fireworks.exe: .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/objects1.rsp
 .cs211/lib/ge211/example/fireworks.exe: .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jared\Downloads\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fireworks.exe"
-	cd /d C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\ge211\example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fireworks.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fireworks.exe"
+	cd /d C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\ge211\example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fireworks.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build: .cs211/lib/ge211/example/fireworks.exe
 .PHONY : .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build
 
 .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/clean:
-	cd /d C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\ge211\example && $(CMAKE_COMMAND) -P CMakeFiles\fireworks.dir\cmake_clean.cmake
+	cd /d C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\ge211\example && $(CMAKE_COMMAND) -P CMakeFiles\fireworks.dir\cmake_clean.cmake
 .PHONY : .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/clean
 
 .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\jared\Downloads\final_project C:\Users\jared\Downloads\final_project\.cs211\lib\ge211\example C:\Users\jared\Downloads\final_project\cmake-build-debug C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\ge211\example C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\ge211\example\CMakeFiles\fireworks.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\.cs211\lib\ge211\example C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\ge211\example C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\ge211\example\CMakeFiles\fireworks.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/depend
 

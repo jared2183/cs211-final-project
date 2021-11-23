@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/jared/Downloads/final_project/src/controller.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/CMakeFiles/game.dir/src/controller.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/src/main.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/CMakeFiles/game.dir/src/main.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/src/model.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/CMakeFiles/game.dir/src/model.cxx.obj"
-  "C:/Users/jared/Downloads/final_project/src/view.cxx" "C:/Users/jared/Downloads/final_project/cmake-build-debug/CMakeFiles/game.dir/src/view.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/controller.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/game.dir/src/controller.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/main.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/game.dir/src/main.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/model.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/game.dir/src/model.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/view.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/game.dir/src/view.cxx.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,7 +29,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/DependInfo.cmake"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

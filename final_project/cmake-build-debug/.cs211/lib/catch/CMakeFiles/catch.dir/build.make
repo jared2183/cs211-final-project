@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jared\Downloads\final_project
+CMAKE_SOURCE_DIR = C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jared\Downloads\final_project\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include .cs211/lib/catch/CMakeFiles/catch.dir/depend.make
@@ -68,16 +68,16 @@ include .cs211/lib/catch/CMakeFiles/catch.dir/flags.make
 .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.obj: .cs211/lib/catch/CMakeFiles/catch.dir/flags.make
 .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.obj: .cs211/lib/catch/CMakeFiles/catch.dir/includes_CXX.rsp
 .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.obj: ../.cs211/lib/catch/src/catch.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jared\Downloads\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.obj"
-	cd /d C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\catch && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\catch.dir\src\catch.cxx.obj -c C:\Users\jared\Downloads\final_project\.cs211\lib\catch\src\catch.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.obj"
+	cd /d C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\catch && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\catch.dir\src\catch.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\.cs211\lib\catch\src\catch.cxx
 
 .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/catch.dir/src/catch.cxx.i"
-	cd /d C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\catch && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jared\Downloads\final_project\.cs211\lib\catch\src\catch.cxx > CMakeFiles\catch.dir\src\catch.cxx.i
+	cd /d C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\catch && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\.cs211\lib\catch\src\catch.cxx > CMakeFiles\catch.dir\src\catch.cxx.i
 
 .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/catch.dir/src/catch.cxx.s"
-	cd /d C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\catch && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jared\Downloads\final_project\.cs211\lib\catch\src\catch.cxx -o CMakeFiles\catch.dir\src\catch.cxx.s
+	cd /d C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\catch && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\.cs211\lib\catch\src\catch.cxx -o CMakeFiles\catch.dir\src\catch.cxx.s
 
 # Object files for target catch
 catch_OBJECTS = \
@@ -89,19 +89,19 @@ catch_EXTERNAL_OBJECTS =
 .cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.obj
 .cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/build.make
 .cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jared\Downloads\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcatch.a"
-	cd /d C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\catch && $(CMAKE_COMMAND) -P CMakeFiles\catch.dir\cmake_clean_target.cmake
-	cd /d C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\catch && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\catch.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcatch.a"
+	cd /d C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\catch && $(CMAKE_COMMAND) -P CMakeFiles\catch.dir\cmake_clean_target.cmake
+	cd /d C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\catch && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\catch.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 .cs211/lib/catch/CMakeFiles/catch.dir/build: .cs211/lib/catch/libcatch.a
 .PHONY : .cs211/lib/catch/CMakeFiles/catch.dir/build
 
 .cs211/lib/catch/CMakeFiles/catch.dir/clean:
-	cd /d C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\catch && $(CMAKE_COMMAND) -P CMakeFiles\catch.dir\cmake_clean.cmake
+	cd /d C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\catch && $(CMAKE_COMMAND) -P CMakeFiles\catch.dir\cmake_clean.cmake
 .PHONY : .cs211/lib/catch/CMakeFiles/catch.dir/clean
 
 .cs211/lib/catch/CMakeFiles/catch.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\jared\Downloads\final_project C:\Users\jared\Downloads\final_project\.cs211\lib\catch C:\Users\jared\Downloads\final_project\cmake-build-debug C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\catch C:\Users\jared\Downloads\final_project\cmake-build-debug\.cs211\lib\catch\CMakeFiles\catch.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\.cs211\lib\catch C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\catch C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\.cs211\lib\catch\CMakeFiles\catch.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : .cs211/lib/catch/CMakeFiles/catch.dir/depend
 

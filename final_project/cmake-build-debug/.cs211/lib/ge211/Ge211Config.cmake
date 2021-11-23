@@ -45,7 +45,7 @@ unset(_expectedTargets)
 add_library(ge211 STATIC IMPORTED)
 
 set_target_properties(ge211 PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/jared/Downloads/final_project/.cs211/lib/ge211/src/../include;C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/../include;C:/MinGW/include/SDL2"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/../include;C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/../include;C:/MinGW/include/SDL2"
   INTERFACE_LINK_LIBRARIES "mingw32;-mwindows;C:/MinGW/lib/libSDL2.dll.a;C:/MinGW/lib/libSDL2_image.dll.a;C:/MinGW/lib/libSDL2_mixer.dll.a;C:/MinGW/lib/libSDL2_ttf.dll.a;\$<LINK_ONLY:utf8-cpp>"
 )
 
@@ -53,7 +53,7 @@ set_target_properties(ge211 PROPERTIES
 set_property(TARGET ge211 APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(ge211 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/jared/Downloads/final_project/cmake-build-debug/.cs211/lib/ge211/src/libge211.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/ge211/src/libge211.a"
   )
 
 # Make sure the targets which have been exported in some other
