@@ -92,9 +92,22 @@ CMakeFiles/game.dir/src/car.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/car.cxx.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/car.cxx -o CMakeFiles/game.dir/src/car.cxx.s
 
+CMakeFiles/game.dir/src/circle.cxx.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/circle.cxx.o: ../src/circle.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/circle.cxx.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/circle.cxx.o -c /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx
+
+CMakeFiles/game.dir/src/circle.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/circle.cxx.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx > CMakeFiles/game.dir/src/circle.cxx.i
+
+CMakeFiles/game.dir/src/circle.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/circle.cxx.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx -o CMakeFiles/game.dir/src/circle.cxx.s
+
 CMakeFiles/game.dir/src/view.cxx.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/view.cxx.o: ../src/view.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/view.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/view.cxx.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/view.cxx.o -c /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/view.cxx
 
 CMakeFiles/game.dir/src/view.cxx.i: cmake_force
@@ -107,7 +120,7 @@ CMakeFiles/game.dir/src/view.cxx.s: cmake_force
 
 CMakeFiles/game.dir/src/controller.cxx.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/controller.cxx.o: ../src/controller.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/controller.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/controller.cxx.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/controller.cxx.o -c /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/controller.cxx
 
 CMakeFiles/game.dir/src/controller.cxx.i: cmake_force
@@ -120,7 +133,7 @@ CMakeFiles/game.dir/src/controller.cxx.s: cmake_force
 
 CMakeFiles/game.dir/src/main.cxx.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/main.cxx.o: ../src/main.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/main.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/main.cxx.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/main.cxx.o -c /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/main.cxx
 
 CMakeFiles/game.dir/src/main.cxx.i: cmake_force
@@ -135,6 +148,7 @@ CMakeFiles/game.dir/src/main.cxx.s: cmake_force
 game_OBJECTS = \
 "CMakeFiles/game.dir/src/model.cxx.o" \
 "CMakeFiles/game.dir/src/car.cxx.o" \
+"CMakeFiles/game.dir/src/circle.cxx.o" \
 "CMakeFiles/game.dir/src/view.cxx.o" \
 "CMakeFiles/game.dir/src/controller.cxx.o" \
 "CMakeFiles/game.dir/src/main.cxx.o"
@@ -144,6 +158,7 @@ game_EXTERNAL_OBJECTS =
 
 game: CMakeFiles/game.dir/src/model.cxx.o
 game: CMakeFiles/game.dir/src/car.cxx.o
+game: CMakeFiles/game.dir/src/circle.cxx.o
 game: CMakeFiles/game.dir/src/view.cxx.o
 game: CMakeFiles/game.dir/src/controller.cxx.o
 game: CMakeFiles/game.dir/src/main.cxx.o
@@ -154,7 +169,7 @@ game: /opt/homebrew/lib/libSDL2_image.dylib
 game: /opt/homebrew/lib/libSDL2_mixer.dylib
 game: /opt/homebrew/lib/libSDL2_ttf.dylib
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

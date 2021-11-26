@@ -263,6 +263,33 @@ src/car.cxx.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/car.cxx.s
 .PHONY : src/car.cxx.s
 
+src/circle.o: src/circle.cxx.o
+.PHONY : src/circle.o
+
+# target to build an object file
+src/circle.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/circle.cxx.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/circle.cxx.o
+.PHONY : src/circle.cxx.o
+
+src/circle.i: src/circle.cxx.i
+.PHONY : src/circle.i
+
+# target to preprocess a source file
+src/circle.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/circle.cxx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/circle.cxx.i
+.PHONY : src/circle.cxx.i
+
+src/circle.s: src/circle.cxx.s
+.PHONY : src/circle.s
+
+# target to generate assembly for a file
+src/circle.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/circle.cxx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/circle.cxx.s
+.PHONY : src/circle.cxx.s
+
 src/controller.o: src/controller.cxx.o
 .PHONY : src/controller.o
 
@@ -407,6 +434,9 @@ help:
 	@echo "... src/car.o"
 	@echo "... src/car.i"
 	@echo "... src/car.s"
+	@echo "... src/circle.o"
+	@echo "... src/circle.i"
+	@echo "... src/circle.s"
 	@echo "... src/controller.o"
 	@echo "... src/controller.i"
 	@echo "... src/controller.s"

@@ -1,25 +1,24 @@
 #include <ge211.hxx>
+#include <circle.hxx>
 
 #pragma once
 
-using Position = ge211::Posn<float>;
-using Velocity = ge211::Dims<float>;
-using Acceleration = ge211::Dims<float>;
-
-struct Car {
+struct Car : public circle {
     /// Data Members
-    int radius;
-    // Car Movement Data and Heading
-    Position center;
-    Velocity velocity;
-    Acceleration acceleration;
-    float theta;
-
     // The number of times the car has been hit by a bullet
     unsigned int hit_counter;
 
     /// Member Functions
-    bool hits_car(Car player);
+    // Handles collisions with other player
+    bool collide_with(Car player);
+    // Rotates the car a certain number of degrees (intended to be
+    // activated with the side arrow keys)
+    void rotate(float degrees);
+    // Will accelerate car forwards if thruster is on or decelerate if
+    // thruster is off
+    void accelerate(bool on_thrust);
+    // Calculates the next state of the car based on current velocity
     Car next(double dt) const;
-
+    // Increments the hit counter
+    void on_hit();
 };

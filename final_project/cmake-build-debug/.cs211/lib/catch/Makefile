@@ -209,6 +209,30 @@ __/__/__/src/car.cxx.s:
 	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/car.cxx.s
 .PHONY : __/__/__/src/car.cxx.s
 
+__/__/__/src/circle.o: __/__/__/src/circle.cxx.o
+.PHONY : __/__/__/src/circle.o
+
+# target to build an object file
+__/__/__/src/circle.cxx.o:
+	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/circle.cxx.o
+.PHONY : __/__/__/src/circle.cxx.o
+
+__/__/__/src/circle.i: __/__/__/src/circle.cxx.i
+.PHONY : __/__/__/src/circle.i
+
+# target to preprocess a source file
+__/__/__/src/circle.cxx.i:
+	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/circle.cxx.i
+.PHONY : __/__/__/src/circle.cxx.i
+
+__/__/__/src/circle.s: __/__/__/src/circle.cxx.s
+.PHONY : __/__/__/src/circle.s
+
+# target to generate assembly for a file
+__/__/__/src/circle.cxx.s:
+	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/circle.cxx.s
+.PHONY : __/__/__/src/circle.cxx.s
+
 src/catch.o: src/catch.cxx.o
 .PHONY : src/catch.o
 
@@ -250,6 +274,9 @@ help:
 	@echo "... __/__/__/src/car.o"
 	@echo "... __/__/__/src/car.i"
 	@echo "... __/__/__/src/car.s"
+	@echo "... __/__/__/src/circle.o"
+	@echo "... __/__/__/src/circle.i"
+	@echo "... __/__/__/src/circle.s"
 	@echo "... src/catch.o"
 	@echo "... src/catch.i"
 	@echo "... src/catch.s"

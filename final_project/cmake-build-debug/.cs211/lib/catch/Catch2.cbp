@@ -74,6 +74,12 @@
 		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/car.hxx">
 			<Option target="catch"/>
 		</Unit>
+		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx">
+			<Option target="catch"/>
+		</Unit>
+		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.hxx">
+			<Option target="catch"/>
+		</Unit>
 		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
