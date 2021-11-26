@@ -92,31 +92,31 @@ include .cs211/lib/catch/CMakeFiles/catch.dir/flags.make
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/catch.dir/__/__/__/src/car.cxx.s"
 	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/car.cxx -o CMakeFiles/catch.dir/__/__/__/src/car.cxx.s
 
-.cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/circle.cxx.o: .cs211/lib/catch/CMakeFiles/catch.dir/flags.make
-.cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/circle.cxx.o: ../src/circle.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/circle.cxx.o"
-	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/catch.dir/__/__/__/src/circle.cxx.o -c /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx
+.cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/ball.cxx.o: .cs211/lib/catch/CMakeFiles/catch.dir/flags.make
+.cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/ball.cxx.o: ../src/ball.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/ball.cxx.o"
+	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/catch.dir/__/__/__/src/ball.cxx.o -c /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/ball.cxx
 
-.cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/circle.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/catch.dir/__/__/__/src/circle.cxx.i"
-	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx > CMakeFiles/catch.dir/__/__/__/src/circle.cxx.i
+.cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/ball.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/catch.dir/__/__/__/src/ball.cxx.i"
+	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/ball.cxx > CMakeFiles/catch.dir/__/__/__/src/ball.cxx.i
 
-.cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/circle.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/catch.dir/__/__/__/src/circle.cxx.s"
-	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx -o CMakeFiles/catch.dir/__/__/__/src/circle.cxx.s
+.cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/ball.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/catch.dir/__/__/__/src/ball.cxx.s"
+	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/.cs211/lib/catch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/ball.cxx -o CMakeFiles/catch.dir/__/__/__/src/ball.cxx.s
 
 # Object files for target catch
 catch_OBJECTS = \
 "CMakeFiles/catch.dir/src/catch.cxx.o" \
 "CMakeFiles/catch.dir/__/__/__/src/car.cxx.o" \
-"CMakeFiles/catch.dir/__/__/__/src/circle.cxx.o"
+"CMakeFiles/catch.dir/__/__/__/src/ball.cxx.o"
 
 # External object files for target catch
 catch_EXTERNAL_OBJECTS =
 
 .cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.o
 .cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/car.cxx.o
-.cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/circle.cxx.o
+.cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/ball.cxx.o
 .cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/build.make
 .cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libcatch.a"

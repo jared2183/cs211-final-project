@@ -2,7 +2,7 @@
 
 #include <ge211.hxx>
 #include <car.hxx>
-#include <circle.hxx>
+#include <ball.hxx>
 
 using Rectangle = ge211::Rect<int>;
 

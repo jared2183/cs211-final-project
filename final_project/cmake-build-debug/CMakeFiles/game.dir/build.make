@@ -92,18 +92,18 @@ CMakeFiles/game.dir/src/car.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/car.cxx.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/car.cxx -o CMakeFiles/game.dir/src/car.cxx.s
 
-CMakeFiles/game.dir/src/circle.cxx.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/circle.cxx.o: ../src/circle.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/circle.cxx.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/circle.cxx.o -c /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx
+CMakeFiles/game.dir/src/ball.cxx.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/ball.cxx.o: ../src/ball.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/ball.cxx.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/ball.cxx.o -c /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/ball.cxx
 
-CMakeFiles/game.dir/src/circle.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/circle.cxx.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx > CMakeFiles/game.dir/src/circle.cxx.i
+CMakeFiles/game.dir/src/ball.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/ball.cxx.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/ball.cxx > CMakeFiles/game.dir/src/ball.cxx.i
 
-CMakeFiles/game.dir/src/circle.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/circle.cxx.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx -o CMakeFiles/game.dir/src/circle.cxx.s
+CMakeFiles/game.dir/src/ball.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/ball.cxx.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/ball.cxx -o CMakeFiles/game.dir/src/ball.cxx.s
 
 CMakeFiles/game.dir/src/view.cxx.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/view.cxx.o: ../src/view.cxx
@@ -148,7 +148,7 @@ CMakeFiles/game.dir/src/main.cxx.s: cmake_force
 game_OBJECTS = \
 "CMakeFiles/game.dir/src/model.cxx.o" \
 "CMakeFiles/game.dir/src/car.cxx.o" \
-"CMakeFiles/game.dir/src/circle.cxx.o" \
+"CMakeFiles/game.dir/src/ball.cxx.o" \
 "CMakeFiles/game.dir/src/view.cxx.o" \
 "CMakeFiles/game.dir/src/controller.cxx.o" \
 "CMakeFiles/game.dir/src/main.cxx.o"
@@ -158,7 +158,7 @@ game_EXTERNAL_OBJECTS =
 
 game: CMakeFiles/game.dir/src/model.cxx.o
 game: CMakeFiles/game.dir/src/car.cxx.o
-game: CMakeFiles/game.dir/src/circle.cxx.o
+game: CMakeFiles/game.dir/src/ball.cxx.o
 game: CMakeFiles/game.dir/src/view.cxx.o
 game: CMakeFiles/game.dir/src/controller.cxx.o
 game: CMakeFiles/game.dir/src/main.cxx.o

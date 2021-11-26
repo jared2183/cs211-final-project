@@ -10,7 +10,7 @@ include(.cs211/cmake/CMakeLists.txt)
 set(MODEL_SRC
         src/model.cxx
         src/car.cxx
-        src/circle.cxx)
+        src/ball.cxx)
 
 # TODO: PUT ADDITIONAL NON-MODEL (UI) .cxx FILES IN THIS LIST:
 add_program(${GAME_EXE}

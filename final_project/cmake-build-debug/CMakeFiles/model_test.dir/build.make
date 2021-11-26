@@ -92,18 +92,18 @@ CMakeFiles/model_test.dir/src/car.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/model_test.dir/src/car.cxx.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/car.cxx -o CMakeFiles/model_test.dir/src/car.cxx.s
 
-CMakeFiles/model_test.dir/src/circle.cxx.o: CMakeFiles/model_test.dir/flags.make
-CMakeFiles/model_test.dir/src/circle.cxx.o: ../src/circle.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/model_test.dir/src/circle.cxx.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/model_test.dir/src/circle.cxx.o -c /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx
+CMakeFiles/model_test.dir/src/ball.cxx.o: CMakeFiles/model_test.dir/flags.make
+CMakeFiles/model_test.dir/src/ball.cxx.o: ../src/ball.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/model_test.dir/src/ball.cxx.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/model_test.dir/src/ball.cxx.o -c /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/ball.cxx
 
-CMakeFiles/model_test.dir/src/circle.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/model_test.dir/src/circle.cxx.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx > CMakeFiles/model_test.dir/src/circle.cxx.i
+CMakeFiles/model_test.dir/src/ball.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/model_test.dir/src/ball.cxx.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/ball.cxx > CMakeFiles/model_test.dir/src/ball.cxx.i
 
-CMakeFiles/model_test.dir/src/circle.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/model_test.dir/src/circle.cxx.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/circle.cxx -o CMakeFiles/model_test.dir/src/circle.cxx.s
+CMakeFiles/model_test.dir/src/ball.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/model_test.dir/src/ball.cxx.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/ball.cxx -o CMakeFiles/model_test.dir/src/ball.cxx.s
 
 CMakeFiles/model_test.dir/test/model_test.cxx.o: CMakeFiles/model_test.dir/flags.make
 CMakeFiles/model_test.dir/test/model_test.cxx.o: ../test/model_test.cxx
@@ -122,7 +122,7 @@ CMakeFiles/model_test.dir/test/model_test.cxx.s: cmake_force
 model_test_OBJECTS = \
 "CMakeFiles/model_test.dir/src/model.cxx.o" \
 "CMakeFiles/model_test.dir/src/car.cxx.o" \
-"CMakeFiles/model_test.dir/src/circle.cxx.o" \
+"CMakeFiles/model_test.dir/src/ball.cxx.o" \
 "CMakeFiles/model_test.dir/test/model_test.cxx.o"
 
 # External object files for target model_test
@@ -130,7 +130,7 @@ model_test_EXTERNAL_OBJECTS =
 
 model_test: CMakeFiles/model_test.dir/src/model.cxx.o
 model_test: CMakeFiles/model_test.dir/src/car.cxx.o
-model_test: CMakeFiles/model_test.dir/src/circle.cxx.o
+model_test: CMakeFiles/model_test.dir/src/ball.cxx.o
 model_test: CMakeFiles/model_test.dir/test/model_test.cxx.o
 model_test: CMakeFiles/model_test.dir/build.make
 model_test: .cs211/lib/catch/libcatch.a
