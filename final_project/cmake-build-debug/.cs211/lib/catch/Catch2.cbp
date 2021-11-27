@@ -80,7 +80,7 @@
 		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/car.hxx">
 			<Option target="catch"/>
 		</Unit>
-		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/config.cpp">
+		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/src/config.hxx">
 			<Option target="catch"/>
 		</Unit>
 		<Unit filename="/Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/CMakeLists.txt">

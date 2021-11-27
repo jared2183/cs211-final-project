@@ -233,30 +233,6 @@ __/__/__/src/car.cxx.s:
 	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/car.cxx.s
 .PHONY : __/__/__/src/car.cxx.s
 
-__/__/__/src/config.o: __/__/__/src/config.cpp.o
-.PHONY : __/__/__/src/config.o
-
-# target to build an object file
-__/__/__/src/config.cpp.o:
-	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/config.cpp.o
-.PHONY : __/__/__/src/config.cpp.o
-
-__/__/__/src/config.i: __/__/__/src/config.cpp.i
-.PHONY : __/__/__/src/config.i
-
-# target to preprocess a source file
-__/__/__/src/config.cpp.i:
-	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/config.cpp.i
-.PHONY : __/__/__/src/config.cpp.i
-
-__/__/__/src/config.s: __/__/__/src/config.cpp.s
-.PHONY : __/__/__/src/config.s
-
-# target to generate assembly for a file
-__/__/__/src/config.cpp.s:
-	cd /Users/jaredmyang/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f .cs211/lib/catch/CMakeFiles/catch.dir/build.make .cs211/lib/catch/CMakeFiles/catch.dir/__/__/__/src/config.cpp.s
-.PHONY : __/__/__/src/config.cpp.s
-
 src/catch.o: src/catch.cxx.o
 .PHONY : src/catch.o
 
@@ -301,9 +277,6 @@ help:
 	@echo "... __/__/__/src/car.o"
 	@echo "... __/__/__/src/car.i"
 	@echo "... __/__/__/src/car.s"
-	@echo "... __/__/__/src/config.o"
-	@echo "... __/__/__/src/config.i"
-	@echo "... __/__/__/src/config.s"
 	@echo "... src/catch.o"
 	@echo "... src/catch.i"
 	@echo "... src/catch.s"
