@@ -1,27 +1,26 @@
 #include <ge211.hxx>
 #include "ball.hxx"
 
-#pragma once
-
 struct Car : public ball {
     /// Data Members
+    // Direction the front of the car is currently facing (follows unit circle conventions)
+    float theta;
+    Vector velocity;
+    float acceleration;
     // The number of times the car has been hit by a bullet
     unsigned int hit_counter;
-    // Direction the front of the car is currently facing
-    float theta;
-    Acceleration acceleration;
 
     /// Member Functions
-    // Constructor
-    ball(int rad, Velocity vel, Position pos);
+    Car(int rad, Position center, Vector heading);
     // Handles collisions with other player
     bool collide_with(Car player);
     // Rotates the car a certain number of degrees (intended to be
     // activated with the side arrow keys)
     void rotate(float degrees);
-    // Will accelerate car forwards if thruster is on or decelerate if
-    // thruster is off
-    void accelerate(bool on_thrust);
+    // Will accelerate car forwards to maximum speed
+    void speed_up();
+    // Will decelerate the car until its speed is 0
+    void slow_down();
     // Increments the hit counter
     void increment_hit();
     // Shoots a bullet from the front of the car

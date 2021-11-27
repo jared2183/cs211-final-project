@@ -19,28 +19,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="622f3473-9fab-4738-a1ab-3bfb951ab4dc" name="Changes" comment="Added general functions for both model and car">
+      <change afterPath="$PROJECT_DIR$/final_project/src/config.hxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/.cs211/lib/catch/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/.cs211/lib/catch/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/Catch2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/Catch2.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/game.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/game.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/game.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/game.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/game.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/game.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/game.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/game.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/model_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/model_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/model_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/model_test.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/model_test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/model_test.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/model_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/model_test.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/fireworks.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/fireworks.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/game.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/game.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/model_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/model_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/game.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/game.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/ball.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/ball.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/ball.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/ball.hxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/car.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/car.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/src/car.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/car.hxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/src/circle.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/ball.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/src/circle.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/ball.hxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/model.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/model.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/src/model.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/model.hxx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +149,7 @@
       <workItem from="1637702413247" duration="3000" />
       <workItem from="1637702423835" duration="16878000" />
       <workItem from="1637957673269" duration="210000" />
-      <workItem from="1637957911100" duration="985000" />
+      <workItem from="1637957911100" duration="11864000" />
     </task>
     <task id="LOCAL-00001" summary="Added general functions for both model and car">
       <created>1637710316875</created>
