@@ -11,20 +11,22 @@ class Model
 private:
     /// Data Members
     Rectangle platform;
-    Car player1;
-    Car player2;
+    Car p1;
+    Car p2;
     std::vector<ball> bullets;
+    bool game_over;
 
     /// Member Functions
     bool on_platform(Car player);
-    void collide(Car player1, Car player2);
-    void set_game_over();
-    void on_frame();
+    void collide(Car p1, Car p2);
+    void on_frame(double dt);
+    void handle_bullet_collisions();
 
 public:
     Model();
-    void move_forward(Car player);
-    void turn_left(Car player);
-    void turn_right(Car player);
+    void move_forward(Car& player, bool state);
+    void turn_left(Car& player, bool state);
+    void turn_right(Car& player, bool state);
+    void shoot_bullet(Car& player);
     bool is_game_over();
 };

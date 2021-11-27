@@ -20,10 +20,15 @@
   <component name="ChangeListManager">
     <list default="true" id="622f3473-9fab-4738-a1ab-3bfb951ab4dc" name="Changes" comment="Added general functions for both model and car">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/ball.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/ball.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/ball.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/ball.hxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/src/car.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/car.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/src/car.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/car.hxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/src/config.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/config.hxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/controller.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/controller.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/src/model.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/model.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/model.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/model.hxx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,5 +168,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added general functions for both model and car" />
     <option name="LAST_COMMIT_MESSAGE" value="Added general functions for both model and car" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/final_project/src/car.cxx</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

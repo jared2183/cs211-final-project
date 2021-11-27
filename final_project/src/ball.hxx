@@ -7,7 +7,7 @@ struct ball {
     /// Data Members
     int radius;
     Position center;
-    // Unit vector pointing in direction ball is moving
+    // Unit vector pointing in direction of ball movement (velocity unit vector)
     Vector heading;
     float speed;
 

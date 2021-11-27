@@ -36,5 +36,5 @@ static float
 distance(Position pos1, Position pos2) {
     float dx = pos1.x - pos2.x;
     float dy = pos1.y - pos2.y;
-    return sqrtf(dx * dx + dy * dy);
+    return sqrt(dx * dx + dy * dy);
 }

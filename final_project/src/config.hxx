@@ -10,7 +10,7 @@ int car_radius = 50; // in pixels
 float kb_multiplier;
 
 float top_speed = 100; // in pixels per second
-float thrust = 80; // in pixels per second squared
+float thrust_magnitude = 80; // in pixels per second squared
 float drag = 20; // in pixels per second squared
 float rotation_speed = 50; // in degrees per second
 
