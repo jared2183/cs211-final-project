@@ -10,6 +10,7 @@ Controller::draw(ge211::Sprite_set& set)
     view_.draw(set);
 }
 
+/*
 void
 Controller::on_key_down(ge211::Key key)
 {
@@ -44,4 +45,4 @@ Controller::on_key_up(ge211::Key key)
     }
 
 }
-
+*/

@@ -24,8 +24,8 @@ Model::turn_right(Car& player, bool state) {
 }
 
 void collide(Car p1, Car p2) {
-    Vector v1 = {p1.heading.width * p1.speed, p1.heading.height * p1.speed};
-    Vector v2 = {p2.heading.width * p2.speed, p2.heading.height * p2.speed};
+    Vector v1 = p1.velocity;
+    Vector v2 = p2.velocity;
 }
 
 void
@@ -45,6 +45,9 @@ Model::on_frame(double dt) {
     p2 = p2.next(dt);
 
     // Bullet movement
+    for (ball& bullet: bullets) {
+        bullet = bullet.next(dt);
+    }
 }
 
 bool

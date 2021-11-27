@@ -18,17 +18,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622f3473-9fab-4738-a1ab-3bfb951ab4dc" name="Changes" comment="Added general functions for both model and car">
+    <list default="true" id="622f3473-9fab-4738-a1ab-3bfb951ab4dc" name="Changes" comment="Rough template for states and next functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/src/ball.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/ball.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/src/ball.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/ball.hxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/Progress/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/Progress/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/src/car.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/car.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/src/car.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/car.hxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/src/config.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/config.hxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/src/controller.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/controller.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/src/model.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/model.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/src/model.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/src/model.hxx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637710316875</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rough template for states and next functions">
+      <created>1638001850980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638001850983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,16 +175,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added general functions for both model and car" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added general functions for both model and car" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/final_project/src/car.cxx</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Rough template for states and next functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rough template for states and next functions" />
   </component>
 </project>

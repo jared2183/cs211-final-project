@@ -5,7 +5,7 @@
 // Helper Function
 Vector normalize(Vector v) {
     float len = sqrt(v.width*v.width + v.height*v.height);
-    return {v.width/len, v.height/len}
+    return {v.width/len, v.height/len};
 }
 
 Car::Car(int rad, Position center, Vector heading, float theta)
@@ -40,7 +40,7 @@ Car::speed_up() {
 void
 Car::slow_down() {
     if (speed > 0) {
-        acceleration = -drag;
+        acceleration = drag;
     } else {
         acceleration = 0;
     }
@@ -81,8 +81,8 @@ Car::next(double dt) const {
         nxt.velocity.width += heading.width * acceleration * dt;
         nxt.velocity.height += heading.height * acceleration * dt;
     }
-    nxt.heading = normalize(nxt.velocity);
 
+    nxt.heading = normalize(nxt.velocity);
     nxt.center.x += velocity.width * dt;
     nxt.center.y += velocity.height * dt;
 

@@ -20,7 +20,7 @@ private:
     bool on_platform(Car player);
     void collide(Car p1, Car p2);
     void on_frame(double dt);
-    void handle_bullet_collisions();
+    void bullet_collisions();
 
 public:
     Model();
