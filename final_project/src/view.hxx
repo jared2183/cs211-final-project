@@ -17,6 +17,8 @@ public:
     // Renders the state of the game (cars, water, platform) to the screen.
     void draw(ge211::Sprite_set& set);
 
+    std::string initial_window_title() const;
+
 private:
     ///
     /// PRIVATE MEMBER VARIABLES
@@ -39,7 +41,9 @@ private:
 
     // The fonts and text for the winner screen.
     ge211::Font winner_font_;
-    ge211::Text_sprite winner_sprite_;
+    ge211::Text_sprite winner1_sprite_;
+    ge211::Text_sprite winner2_sprite_;
+    ge211::Text_sprite winner3_sprite_;
 
     // The bump-er cars.
     ge211::Circle_sprite const player1_sprite_;

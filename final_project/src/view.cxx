@@ -48,7 +48,9 @@ View::View(Model const& model, Dims window_dims)
           platform_sprite_({window_dims.width*(7/9),window_dims.height*(4/6)}, platform_color),
           bullet_sprite_({bullet_width,bullet_height}, bullet_color),
           winner_font_("sans.tff", letter_font_size),
-          winner_sprite_("N/A",winner_font_),
+          winner1_sprite_("Player 1 wins!",winner_font_),
+          winner2_sprite_("Player 2 wins!",winner_font_),
+          winner3_sprite_("Draw!",winner_font_),
           player1_sprite_(car_radius, player1_color),
           player2_sprite_(car_radius, player2_color),
           player1_indicator_sprite_({indicator_width,indicator_height}, player1_color),
@@ -56,7 +58,46 @@ View::View(Model const& model, Dims window_dims)
 { }
 
 void
-View::draw(ge211::Sprite_set& set)
+View::draw(ge211::Sprite_set& set) // should utilize model to call where the car is atm
 {
-    // This needs to do something!
+
+    // If game is over, draw the end winner screen
+    if (false) {
+        // if winner is 1
+        if (false) {
+            set.add_sprite(winner1_sprite_, {0, 0}, 0);
+        } else if (false) {
+            set.add_sprite(winner2_sprite_, {0, 0}, 0);
+        } else {
+            set.add_sprite(winner3_sprite_,{0, 0}, 0);
+        }
+    } else { // If the game isn't over, let's continue the game!
+
+        // Draw the water
+        set.add_sprite(water_sprite_, {0,0}, 0);
+
+        // Draw the platform
+        int width_margin = window_dims_.width*(1/9);
+        int height_margin = window_dims_.height*(1/9);
+        set.add_sprite(platform_sprite_, {width_margin, height_margin}, 1);
+
+        // Draw the cars (redone by every call to controller movement, update car),
+        // replace with actual car
+        int car1_x = window_dims_.width*(8/9) - car_radius*2;
+        int car2_y = window_dims_.height*(8/9) - car_radius*2;
+        set.add_sprite(player1_sprite_, {car1_x, height_margin}, 2);
+        set.add_sprite(player2_sprite_, {width_margin, car2_y}, 2);
+
+        // Draw the bullets (redone by every call to controller shots, update existing bullets)
+        // if controller shoots bullet, add bullet to vector of bullets? for bullet in bullets,
+        // add sprite
+
+    }
+}
+
+std::string
+View::initial_window_title() const
+{
+    // You can change this if you want:
+    return "Bump";
 }
