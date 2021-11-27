@@ -1,56 +1,61 @@
+// IT MIGHT BE OKAY TO MODIFY THIS FILE, BUT YOU PROBABLY DON'T
+// WANT TO.
+//
+// Defines the structure and resources of the user interface.
+//
+
 #pragma once
 
-#include "model.hxx"
+#include <ge211.hxx>
 
-class View
+// Forward declaration of our model struct. This lets us use references
+// to Model in this file even though the definition isn’t visible. (Just
+// like in C.)
+struct Model;
+
+struct View
 {
-public:
-    // Type for window dimensions.
-    using Dims = ge211::Dims<int>;
+    //
+    // CONSTRUCTOR
+    //
 
-    // Constructs a view with reference to a model.
-    // Optionally, you can specify the dimensions of the window.
-    explicit View(
-            Model const& model,
-            Dims window_dims = {1280, 720});
-
-    // Renders the state of the game (cars, water, platform) to the screen.
-    void draw(ge211::Sprite_set& set);
-
-    std::string initial_window_title() const;
-
-private:
+    /// Constructs a `View` given a const reference to the model that
+    /// stores the actual state of the game. This lets the view observe
+    /// the model’s state but not modify it.
     ///
-    /// PRIVATE MEMBER VARIABLES
-    ///
+    /// The word `explicit` means that this constructor doesn't define
+    /// an implicit conversion whereby you could pass a `Model` to a
+    /// function that expects a `View` and have it work.
+    explicit View(Model const&);
 
-    // The view can look at the model but doesn't change it.
-    Model const& model_;
+    //
+    // MEMBER FUNCTIONS
+    //
 
-    // The dimensions of the window to open.
-    Dims window_dims_;
+    /// Returns the size of the window as given by `config.scene_dims`.
+    ge211::Dims<int> initial_window_dimensions() const;
+
+    /// Renders all the game entities to the screen. In particular,
+    /// `ball_sprite` is placed at the ball's bounding box's top-left,
+    /// `paddle_sprite` is placed where the model says the paddle is,
+    /// and `brick_sprite` is placed for each brick in `model.bricks`.
+    void draw(ge211::Sprite_set&);
+
+
+    //
+    // MEMBER VARIABLES
+    //
+
+    /// This is a reference to the model. It means that the view doesn't
+    /// own the model but has access to it. Thus, the client of the view
+    /// (controller.cxx) must have or create a `Model` first and then
+    /// pass that by reference to the `View` constructor.
+    Model const& model;
 
     // The water.
     ge211::Rectangle_sprite const water_sprite_;
-
     // The platform.
     ge211::Rectangle_sprite const platform_sprite_;
-
-    // The bullet.
-    ge211::Rectangle_sprite const bullet_sprite_;
-
-    // The fonts and text for the winner screen.
-    ge211::Font winner_font_;
-    ge211::Text_sprite winner1_sprite_;
-    ge211::Text_sprite winner2_sprite_;
-    ge211::Text_sprite winner3_sprite_;
-
     // The bump-er cars.
     ge211::Circle_sprite const player1_sprite_;
-    ge211::Circle_sprite const player2_sprite_;
-
-    // The bump-er cars' indicator.
-    ge211::Rectangle_sprite const player1_indicator_sprite_;
-    ge211::Rectangle_sprite const player2_indicator_sprite_;
-
 };

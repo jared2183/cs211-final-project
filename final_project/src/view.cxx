@@ -1,110 +1,77 @@
+// YOU DEFINITELY NEED TO MODIFY THIS FILE.
+
 #include "view.hxx"
+#include "model.hxx"
 
 ///
-/// Defined constants
+/// VIEW CONSTANTS
 ///
 
-using Color = ge211::Color;
-using Dims = ge211::Dims<int>;
-using Sprite = ge211::Sprite;
-using Sprite_set = ge211::Sprite_set;
-using Transform = ge211::Transform;
+// Colors are red-green-blue(-alpha), each component
+// from 0 to 255.
+static ge211::Color const water_color {212, 241, 249};
+static ge211::Color const platform_color {128, 128, 128};
+static ge211::Color const player_color {255, 255, 255};
 
+// Platform position
+Position platform {128, 72};
 // Radius of each car:
-int const car_radius = 40;
+int const car_radius = 15;
+// Starting margin of each car:
+int const car_margin = 10;
 
-// Effective space taken up by a car, including padding around it:
-Dims const car_box {car_radius*2, car_radius*2};
-
-// Thickness of bullet shot by car:
-int const bullet_width = 1;
-int const bullet_height = 3;
-
-// Thickness of car's indicator:
-int const indicator_width = 1;
-int const indicator_height = 3;
-
-// Size of font:
-int const letter_font_size = car_radius;
-
-// Background colors;
-Color const
-        bullet_color {0x33, 0x33, 0x33},
-        water_color {0x66, 0x66, 0xCC},
-        platform_color {0x00, 0x66, 0x00};
-
-// Car colors;
-Color const
-        player1_color {0xFF, 0xFF, 0xFF},
-        player2_color {0xFF, 0xFF, 0xFF};
 
 ///
-/// Constructor
+/// VIEW CONSTRUCTOR
 ///
 
-View::View(Model const& model, Dims window_dims)
-        : model_(model),
-          water_sprite_(window_dims, water_color),
-          platform_sprite_({window_dims.width*(7/9),window_dims.height*(4/6)}, platform_color),
-          bullet_sprite_({bullet_width,bullet_height}, bullet_color),
-          winner_font_("sans.tff", letter_font_size),
-          winner1_sprite_("Player 1 wins!",winner_font_),
-          winner2_sprite_("Player 2 wins!",winner_font_),
-          winner3_sprite_("Draw!",winner_font_),
-          player1_sprite_(car_radius, player1_color),
-          player2_sprite_(car_radius, player2_color),
-          player1_indicator_sprite_({indicator_width,indicator_height}, player1_color),
-          player2_indicator_sprite_({indicator_width,indicator_height}, player2_color)
+// Data members that are references cannot be initialized by assignment
+// in the constructor body and must be initialized in a member
+// initializer list.
+View::View(Model const& m)
+        : model(m),
+          water_sprite_(m.config.scene_dims, water_color),
+          platform_sprite_(8*m.config.scene_dims/10, platform_color),
+          player1_sprite_(car_radius, player_color)
 { }
 
+
+///
+/// VIEW FUNCTIONS
+///
+
+// Use `Sprite_set::add_sprite(Sprite&, Position)` to add each sprite
+// to `sprites`.
 void
-View::draw(ge211::Sprite_set& set) // should utilize model to call where the car is atm
+View::draw(ge211::Sprite_set& sprites)
 {
+//    // 'ball_sprite' placed at ball's bounding box's top-left
+//    sprites.add_sprite(ball_sprite, model.ball.top_left().into<int>(), 1);
+//    // 'paddle_sprite' placed where model says paddle is
+//    sprites.add_sprite(paddle_sprite, model.paddle.top_left(), 1);
 
-    // If game is over, draw the end winner screen
-    if (false) {
-        // if winner is 1
-        if (false) {
-            set.add_sprite(winner1_sprite_, {0, 0}, 0);
-        } else if (false) {
-            set.add_sprite(winner2_sprite_, {0, 0}, 0);
-        } else {
-            set.add_sprite(winner3_sprite_,{0, 0}, 0);
-        }
-    } else { // If the game isn't over, let's continue the game!
+//    // 'brick_sprite' placed for each brick in 'model.bricks'
+//    for (Block brick : model.bricks) {
+//        sprites.add_sprite(brick_sprite, {brick.x, brick.y}, 1);
+//    }
 
-        // Draw the water
-        set.add_sprite(water_sprite_, {0,0}, 0);
+    // Add water
+    sprites.add_sprite(water_sprite_, {0,0}, 0);
+    // Add platform
+    sprites.add_sprite(platform_sprite_, platform.into<int>(), 2);
+    // Add bumper car objects
+    /// should change to actual car's position based on model
+    Position car_pos1 = {platform.x+car_margin,platform.y+car_margin};
+    Position car_pos2 = {platform.x+1024-car_margin-car_radius*2,
+                         platform.y+576-car_margin-car_radius*2};
+    sprites.add_sprite(player1_sprite_, car_pos1.into<int>(), 3);
+    sprites.add_sprite(player1_sprite_, car_pos2.into<int>(), 3);
 
-        // Draw the platform
-        int width_margin = window_dims_.width*(1/9);
-        int height_margin = window_dims_.height*(1/9);
-        set.add_sprite(platform_sprite_, {width_margin, height_margin}, 1);
-
-        // Draw the cars (redone by every call to controller movement, update car),
-        // replace with actual car
-
-        // initial positions
-        int car1_x = window_dims_.width*(8/9) - car_radius*2;
-        int car2_y = window_dims_.height*(8/9) - car_radius*2;
-
-        // add car positions based on new model's cars' positions
-        set.add_sprite(player1_sprite_, {car1_x, height_margin}, 2);
-        set.add_sprite(player2_sprite_, {width_margin, car2_y}, 2);
-
-        // Draw the bullets (redone by every call to controller shots, update existing bullets)
-        // if controller shoots bullet, add bullet to m_vector of bullets? for bullet in bullets,
-        // add sprite
-
-        // for bullet in bullet, add sprite for each bullet position
-        set.add_sprite(bullet_sprite_, {0,0}, 3);
-
-    }
 }
 
-std::string
-View::initial_window_title() const
+ge211::Dims<int>
+View::initial_window_dimensions() const
 {
-    // You can change this if you want:
-    return "Bump";
+    return model.config.scene_dims;
 }
+
