@@ -83,14 +83,21 @@ View::draw(ge211::Sprite_set& set) // should utilize model to call where the car
 
         // Draw the cars (redone by every call to controller movement, update car),
         // replace with actual car
+
+        // initial positions
         int car1_x = window_dims_.width*(8/9) - car_radius*2;
         int car2_y = window_dims_.height*(8/9) - car_radius*2;
+
+        // add car positions based on new model's cars' positions
         set.add_sprite(player1_sprite_, {car1_x, height_margin}, 2);
         set.add_sprite(player2_sprite_, {width_margin, car2_y}, 2);
 
         // Draw the bullets (redone by every call to controller shots, update existing bullets)
-        // if controller shoots bullet, add bullet to vector of bullets? for bullet in bullets,
+        // if controller shoots bullet, add bullet to m_vector of bullets? for bullet in bullets,
         // add sprite
+
+        // for bullet in bullet, add sprite for each bullet position
+        set.add_sprite(bullet_sprite_, {0,0}, 3);
 
     }
 }
