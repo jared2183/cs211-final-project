@@ -48,7 +48,6 @@ Car::slow_down() {
 
 void
 Car::shoot(std::vector<ball>& bullets) {
-    float pi = 3.1415926535;
     Vector bullet_heading = forward_direction();
     ball bullet = {bullet_radius, bullet_heading, center, bullet_speed};
     bullets.push_back(bullet);

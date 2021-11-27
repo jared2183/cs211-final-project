@@ -8,31 +8,56 @@ Model::Model()
       game_over(false)
 { }
 
+/// Handles Controller Input
 void
-Model::move_forward(Car& player, bool state) {
-    player.control.thrust = state;
+Model::p1_move_forward(bool state) {
+    p1.control.thrust = state;
 }
 
 void
-Model::turn_left(Car& player, bool state) {
-    player.control.turning_left = state;
+Model::p1_turn_left(bool state) {
+    p1.control.turning_left = state;
 }
 
 void
-Model::turn_right(Car& player, bool state) {
-    player.control.turning_right = state;
+Model::p1_turn_right(bool state) {
+    p1.control.turning_right = state;
 }
+
+void
+Model::p1_shoot_bullet() {
+    p1.shoot(bullets);
+}
+
+void
+Model::p2_move_forward(bool state) {
+    p2.control.thrust = state;
+}
+
+void
+Model::p2_turn_left(bool state) {
+    p2.control.turning_left = state;
+}
+
+void
+Model::p2_turn_right(bool state) {
+    p2.control.turning_right = state;
+}
+
+void
+Model::p2_shoot_bullet() {
+    p2.shoot(bullets);
+}
+
+/// Handles object interactions
 
 void collide(Car p1, Car p2) {
     Vector v1 = p1.velocity;
     Vector v2 = p2.velocity;
 }
 
-void
-Model::shoot_bullet(Car& player) {
-    if (!game_over) {
-        player.shoot(bullets);
-    }
+void bullet_collisions() {
+
 }
 
 void

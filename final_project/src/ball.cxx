@@ -24,17 +24,17 @@ ball::heading_to(ball target) {
     return {ux, uy};
 }
 
+static float
+distance(Position pos1, Position pos2) {
+    float dx = pos1.x - pos2.x;
+    float dy = pos1.y - pos2.y;
+    return sqrt(dx * dx + dy * dy);
+}
+
 ball
 ball::next(double dt) const {
     ball next_ball(*this);
     next_ball.center.x += heading.width * speed * dt;
     next_ball.center.y += heading.height * speed * dt;
     return next_ball;
-}
-
-static float
-distance(Position pos1, Position pos2) {
-    float dx = pos1.x - pos2.x;
-    float dy = pos1.y - pos2.y;
-    return sqrt(dx * dx + dy * dy);
 }

@@ -10,7 +10,7 @@ Controller::draw(ge211::Sprite_set& set)
     view_.draw(set);
 }
 
-/*
+
 void
 Controller::on_key_down(ge211::Key key)
 {
@@ -35,14 +35,14 @@ Controller::on_key_up(ge211::Key key)
         model_.turn_right(false);
     }
     if (key == ge211::Key::up()) {
-        model_.move_forard(false);
+        model_.move_forward(false);
     }
     if (key.code() == ' ') {
-        model_.fire_torpedo();
+        model_.shoot_bullet();
     }
     if (key.code() == 'q') {
         exit(0);
     }
 
 }
-*/
+

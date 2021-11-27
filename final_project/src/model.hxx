@@ -24,9 +24,13 @@ private:
 
 public:
     Model();
-    void move_forward(Car& player, bool state);
-    void turn_left(Car& player, bool state);
-    void turn_right(Car& player, bool state);
-    void shoot_bullet(Car& player);
+    void p1_move_forward(bool state);
+    void p1_turn_left(bool state);
+    void p1_turn_right(bool state);
+    void p1_shoot_bullet();
+    void p2_move_forward(bool state);
+    void p2_turn_left(bool state);
+    void p2_turn_right(bool state);
+    void p2_shoot_bullet();
     bool is_game_over();
 };

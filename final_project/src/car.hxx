@@ -20,8 +20,6 @@ struct Car : public ball {
 
     /// Member Functions
     Car(int rad, Position center, Vector heading, float theta);
-    // Handles collisions with other player
-    bool collide_with(Car player);
     // Rotates the car a certain number of degrees (intended to be
     // activated with the side arrow keys)
     void rotate(float degrees);
