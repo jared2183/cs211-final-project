@@ -18,9 +18,9 @@ struct Car : public ball {
     // activated with the side arrow keys)
     void rotate(float degrees);
     // Will accelerate car forwards to maximum speed
-    void speed_up();
+    void speed_up(double dt);
     // Will decelerate the car until its speed is 0
-    void slow_down();
+    void slow_down(double dt);
     // Increments the hit counter
     void increment_hit();
     // Shoots a bullet from the front of the car

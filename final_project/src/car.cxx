@@ -14,11 +14,31 @@ Car::rotate(float degrees) {
 }
 
 void
-Car::speed_up() {
-
+Car::speed_up(double dt) {
+    if (speed < top_speed) {
+        speed += thrust*dt;
+    }
+    else {
+        speed = top_speed;
+    }
+    center.x += heading.width*speed*dt;
+    center.y += heading.height*speed*dt;
 }
 
 void
-Car::slow_down() {
+Car::slow_down(double dt) {
+    if (speed > 0) {
+        speed -= drag*dt;
+    }
+    else {
+        speed = 0;
+    }
+    center.x += heading.width*speed*dt;
+    center.y += heading.height*speed*dt;
+}
 
+void
+Car::shoot(std::vector<ball>& bullets) {
+    Position bullet_pos = Position(center.x)
+    ball bullet = {bullet_radius, heading, }
 }
