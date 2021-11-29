@@ -33,6 +33,7 @@ private:
     // The bump-er cars.
     ge211::Circle_sprite const player1_sprite_;
     ge211::Circle_sprite const player2_sprite_;
+    ge211::Circle_sprite const bullet_sprite_;
     // The fonts and text for the winner screen.
     ge211::Font winner_font_;
     ge211::Text_sprite winner1_sprite_;
@@ -40,4 +41,5 @@ private:
     ge211::Text_sprite winner3_sprite_;
     // The bump-er cars' indicator.
     ge211::Rectangle_sprite const indicator_sprite_;
+    ge211::Image_sprite const arrow_sprite_;
 };

@@ -57,7 +57,9 @@ Model::p2_shoot_bullet() {
 /// Handles object interactions
 
 void collide(Car p1, Car p2) {
-    return;
+    Vector temp = p1.velocity;
+    p1.velocity = p2.velocity;
+    p2.velocity = temp;
 }
 
 void bullet_collisions() {
@@ -70,6 +72,15 @@ Model::on_frame(double dt) {
     if (game_over) {
         return;
     }
+    // if balls collide, run model collide
+    if (((p1.center.x - p2.center.x)*(p1.center.x - p2.center.x) +
+            (p1.center.y - p2.center.y)*(p1.center.y - p2.center.y))
+            == (car_radius*2)*(car_radius*2)) {
+        Vector temp = p1.velocity;
+        p1.velocity = p2.velocity;
+        p2.velocity = temp;
+    }
+
     p1 = p1.next(dt);
     p2 = p2.next(dt);
 

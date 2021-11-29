@@ -29,8 +29,7 @@ void
 Controller::on_key_down(ge211::Key key)
 {
     if (key == ge211::Key::left()) {
-//        model_.p2.theta -= 1;
-        model_.p2_turn_left(true);
+        model_.p2_turn_right(true);
         if (model_.p2.control.turning_left) {
             printf("P2 rotated left!\npos1{%f,%f; %f}, pos2{%f,%f; %f}\n", model_.p1.center.x, model_.p1.center.y,
                    model_.p1.theta,
@@ -38,7 +37,7 @@ Controller::on_key_down(ge211::Key key)
         }
     }
     if (key == ge211::Key::right()) {
-        model_.p2_turn_right(true);
+        model_.p2_turn_left(true);
         printf("P2 rotated right!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
                model_.p2.center.x,model_.p2.center.y);
     }
@@ -53,21 +52,17 @@ Controller::on_key_down(ge211::Key key)
                model_.p2.center.x,model_.p2.center.y);
     }
     if (key.code() == 'a') {
-        model_.p1.theta -= 1;
-//        model_.p1_turn_left(false);
+        model_.p1_turn_right(true);
         printf("P1 rotated left!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
                model_.p2.center.x,model_.p2.center.y);
     }
     if (key.code() == 'd') {
-        model_.p1.theta += 1;
-//        model_.p1_turn_right(false);
+        model_.p1_turn_left(true);
         printf("P1 rotated right!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
                model_.p2.center.x,model_.p2.center.y);
     }
     if (key.code() == 'w') {
-        model_.p1.velocity += {10*float(cos(model_.p1.theta*3.14/180)),10*float(sin(model_.p1.theta*3.14/180))};
-        model_.p1 = model_.p1.next(1);
-//        model_.p1_move_forward(false);
+        model_.p1_move_forward(true);
         printf("P1 thrust!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
                model_.p2.center.x,model_.p2.center.y);
     }
@@ -85,18 +80,34 @@ void
 Controller::on_key_up(ge211::Key key) {
     if (key == ge211::Key::left()) {
     //        model_.p2.theta -= 1;
-       model_.p2_turn_left(false);
+       model_.p2_turn_right(false);
        if (model_.p2.control.turning_left) {
-           printf("P2 rotated left!\npos1{%f,%f; %f}, pos2{%f,%f; %f}\n", model_.p1.center.x, model_.p1.center.y,
+           printf("P2 stopped left!\npos1{%f,%f; %f}, pos2{%f,%f; %f}\n", model_.p1.center.x, model_.p1.center.y,
                   model_.p1.theta, model_.p2.center.x,model_.p2.center.y, model_.p2.theta);
         }
     }
     if (key == ge211::Key::right()) {
-        model_.p2_turn_right(false);
-        printf("P2 rotated right!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
+        model_.p2_turn_left(false);
+        printf("P2 stopped right!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
         model_.p2.center.x,model_.p2.center.y);
     }
     if (key == ge211::Key::up()) {
         model_.p2_move_forward(false);
+    }
+
+    if (key.code() == 'a') {
+        model_.p1_turn_right(false);
+        if (model_.p2.control.turning_left) {
+            printf("P1 stopped left!\npos1{%f,%f; %f}, pos2{%f,%f; %f}\n", model_.p1.center.x, model_.p1.center.y,
+                   model_.p1.theta, model_.p2.center.x,model_.p2.center.y, model_.p2.theta);
+        }
+    }
+    if (key.code() == 'd') {
+        model_.p1_turn_left(false);
+        printf("P1 stopped right!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
+               model_.p2.center.x,model_.p2.center.y);
+    }
+    if (key.code() == 'w') {
+        model_.p1_move_forward(false);
     }
 };
