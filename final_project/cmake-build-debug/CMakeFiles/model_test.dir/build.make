@@ -79,10 +79,38 @@ CMakeFiles/model_test.dir/src/model.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/model_test.dir/src/model.cxx.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\model.cxx -o CMakeFiles\model_test.dir\src\model.cxx.s
 
+CMakeFiles/model_test.dir/src/car.cxx.obj: CMakeFiles/model_test.dir/flags.make
+CMakeFiles/model_test.dir/src/car.cxx.obj: CMakeFiles/model_test.dir/includes_CXX.rsp
+CMakeFiles/model_test.dir/src/car.cxx.obj: ../src/car.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/model_test.dir/src/car.cxx.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\model_test.dir\src\car.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\car.cxx
+
+CMakeFiles/model_test.dir/src/car.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/model_test.dir/src/car.cxx.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\car.cxx > CMakeFiles\model_test.dir\src\car.cxx.i
+
+CMakeFiles/model_test.dir/src/car.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/model_test.dir/src/car.cxx.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\car.cxx -o CMakeFiles\model_test.dir\src\car.cxx.s
+
+CMakeFiles/model_test.dir/src/ball.cxx.obj: CMakeFiles/model_test.dir/flags.make
+CMakeFiles/model_test.dir/src/ball.cxx.obj: CMakeFiles/model_test.dir/includes_CXX.rsp
+CMakeFiles/model_test.dir/src/ball.cxx.obj: ../src/ball.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/model_test.dir/src/ball.cxx.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\model_test.dir\src\ball.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\ball.cxx
+
+CMakeFiles/model_test.dir/src/ball.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/model_test.dir/src/ball.cxx.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\ball.cxx > CMakeFiles\model_test.dir\src\ball.cxx.i
+
+CMakeFiles/model_test.dir/src/ball.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/model_test.dir/src/ball.cxx.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\ball.cxx -o CMakeFiles\model_test.dir\src\ball.cxx.s
+
 CMakeFiles/model_test.dir/test/model_test.cxx.obj: CMakeFiles/model_test.dir/flags.make
 CMakeFiles/model_test.dir/test/model_test.cxx.obj: CMakeFiles/model_test.dir/includes_CXX.rsp
 CMakeFiles/model_test.dir/test/model_test.cxx.obj: ../test/model_test.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/model_test.dir/test/model_test.cxx.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/model_test.dir/test/model_test.cxx.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\model_test.dir\test\model_test.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\test\model_test.cxx
 
 CMakeFiles/model_test.dir/test/model_test.cxx.i: cmake_force
@@ -96,12 +124,16 @@ CMakeFiles/model_test.dir/test/model_test.cxx.s: cmake_force
 # Object files for target model_test
 model_test_OBJECTS = \
 "CMakeFiles/model_test.dir/src/model.cxx.obj" \
+"CMakeFiles/model_test.dir/src/car.cxx.obj" \
+"CMakeFiles/model_test.dir/src/ball.cxx.obj" \
 "CMakeFiles/model_test.dir/test/model_test.cxx.obj"
 
 # External object files for target model_test
 model_test_EXTERNAL_OBJECTS =
 
 model_test.exe: CMakeFiles/model_test.dir/src/model.cxx.obj
+model_test.exe: CMakeFiles/model_test.dir/src/car.cxx.obj
+model_test.exe: CMakeFiles/model_test.dir/src/ball.cxx.obj
 model_test.exe: CMakeFiles/model_test.dir/test/model_test.cxx.obj
 model_test.exe: CMakeFiles/model_test.dir/build.make
 model_test.exe: .cs211/lib/catch/libcatch.a
@@ -113,7 +145,7 @@ model_test.exe: C:/MinGW/lib/libSDL2_ttf.dll.a
 model_test.exe: CMakeFiles/model_test.dir/linklibs.rsp
 model_test.exe: CMakeFiles/model_test.dir/objects1.rsp
 model_test.exe: CMakeFiles/model_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable model_test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable model_test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\model_test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

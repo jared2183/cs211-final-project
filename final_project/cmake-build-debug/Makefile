@@ -235,6 +235,60 @@ fireworks/fast:
 	$(MAKE) $(MAKESILENT) -f .cs211\lib\ge211\example\CMakeFiles\fireworks.dir\build.make .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build
 .PHONY : fireworks/fast
 
+src/ball.obj: src/ball.cxx.obj
+.PHONY : src/ball.obj
+
+# target to build an object file
+src/ball.cxx.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/ball.cxx.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\model_test.dir\build.make CMakeFiles/model_test.dir/src/ball.cxx.obj
+.PHONY : src/ball.cxx.obj
+
+src/ball.i: src/ball.cxx.i
+.PHONY : src/ball.i
+
+# target to preprocess a source file
+src/ball.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/ball.cxx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\model_test.dir\build.make CMakeFiles/model_test.dir/src/ball.cxx.i
+.PHONY : src/ball.cxx.i
+
+src/ball.s: src/ball.cxx.s
+.PHONY : src/ball.s
+
+# target to generate assembly for a file
+src/ball.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/ball.cxx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\model_test.dir\build.make CMakeFiles/model_test.dir/src/ball.cxx.s
+.PHONY : src/ball.cxx.s
+
+src/car.obj: src/car.cxx.obj
+.PHONY : src/car.obj
+
+# target to build an object file
+src/car.cxx.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/car.cxx.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\model_test.dir\build.make CMakeFiles/model_test.dir/src/car.cxx.obj
+.PHONY : src/car.cxx.obj
+
+src/car.i: src/car.cxx.i
+.PHONY : src/car.i
+
+# target to preprocess a source file
+src/car.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/car.cxx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\model_test.dir\build.make CMakeFiles/model_test.dir/src/car.cxx.i
+.PHONY : src/car.cxx.i
+
+src/car.s: src/car.cxx.s
+.PHONY : src/car.s
+
+# target to generate assembly for a file
+src/car.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/car.cxx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\model_test.dir\build.make CMakeFiles/model_test.dir/src/car.cxx.s
+.PHONY : src/car.cxx.s
+
 src/controller.obj: src/controller.cxx.obj
 .PHONY : src/controller.obj
 
@@ -376,6 +430,12 @@ help:
 	@echo ... game
 	@echo ... ge211
 	@echo ... model_test
+	@echo ... src/ball.obj
+	@echo ... src/ball.i
+	@echo ... src/ball.s
+	@echo ... src/car.obj
+	@echo ... src/car.i
+	@echo ... src/car.s
 	@echo ... src/controller.obj
 	@echo ... src/controller.i
 	@echo ... src/controller.s

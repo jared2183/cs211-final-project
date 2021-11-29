@@ -1,19 +1,21 @@
 #include "controller.hxx"
 
 Controller::Controller(ge211::Dims<int> screen_dimensions)
-        : model_(screen_dimensions),
+        : model_(scene_dims),
           view_(model_),
           screen_dimensions_(screen_dimensions)
 { }
-
-///
-/// Public member functions
-///
 
 ge211::Dims<int>
 Controller::initial_window_dimensions() const
 {
     return screen_dimensions_;
+}
+
+void
+Controller::on_frame(double dt)
+{
+    model_.on_frame(dt);
 }
 
 
@@ -23,76 +25,78 @@ Controller::draw(ge211::Sprite_set& set)
     view_.draw(set);
 }
 
-
 void
-Controller::on_key(ge211::Key key)
+Controller::on_key_down(ge211::Key key)
 {
-    // PLAYER 1 MOVEMENTS
-    // if W, accelerate P1 forward
-    if (key.code() == 'q') {
-
-    }
-    // if A, rotate P1 left
-    if (key.code() == 'a') {
-
-    }
-    // if S, accelerate P1 backwards
-    if (key.code() == 's') {
-
-    }
-    // if D, rotate P1 right
-    if (key.code() == 'd') {
-
-    }
-
-    // PLAYER 2 MOVEMENTS
-    // if up arrow, accelerate P2 forward
-    if (key == ge211::Key::up()) {
-
-    }
-    // if left arrow, rotate P2 left
     if (key == ge211::Key::left()) {
-
+//        model_.p2.theta -= 1;
+        model_.p2_turn_left(true);
+        if (model_.p2.control.turning_left) {
+            printf("P2 rotated left!\npos1{%f,%f; %f}, pos2{%f,%f; %f}\n", model_.p1.center.x, model_.p1.center.y,
+                   model_.p1.theta,
+                   model_.p2.center.x,model_.p2.center.y, model_.p2.theta);
+        }
     }
-    // if down arrow, accelerate P2 backwards
-    if (key == ge211::Key::down()) {
-
-    }
-    // if right arrow, rotate P2 right
     if (key == ge211::Key::right()) {
-
+        model_.p2_turn_right(true);
+        printf("P2 rotated right!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
+               model_.p2.center.x,model_.p2.center.y);
     }
-}
-
-void
-Controller::on_key_up(ge211::Key key)
-{
-    // quit the game
+    if (key == ge211::Key::up()) {
+        model_.p2_move_forward(true);
+        printf("P2 thrust!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
+               model_.p2.center.x,model_.p2.center.y);
+    }
+    if (key == ge211::Key::shift()) {
+        model_.p2_shoot_bullet();
+        printf("P2 shot bullet!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
+               model_.p2.center.x,model_.p2.center.y);
+    }
+    if (key.code() == 'a') {
+        model_.p1.theta -= 1;
+//        model_.p1_turn_left(false);
+        printf("P1 rotated left!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
+               model_.p2.center.x,model_.p2.center.y);
+    }
+    if (key.code() == 'd') {
+        model_.p1.theta += 1;
+//        model_.p1_turn_right(false);
+        printf("P1 rotated right!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
+               model_.p2.center.x,model_.p2.center.y);
+    }
+    if (key.code() == 'w') {
+        model_.p1.velocity += {10*float(cos(model_.p1.theta*3.14/180)),10*float(sin(model_.p1.theta*3.14/180))};
+        model_.p1 = model_.p1.next(1);
+//        model_.p1_move_forward(false);
+        printf("P1 thrust!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
+               model_.p2.center.x,model_.p2.center.y);
+    }
+    if (key.code() == ' ') {
+        model_.p1_shoot_bullet();
+        printf("P1 shot bullet!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
+               model_.p2.center.x,model_.p2.center.y);
+    }
     if (key.code() == 'q') {
         exit(0);
     }
-
-    // PLAYER 1 MOVEMENT
-
-    // PLAYER 2 MOVEMENT
-
-    // PLAYER 1 GUN
-    // if Q, P1 shoots bullet in facing direction
-    if (key.code() == 'q') {
-
-    }
-
-    // PLAYER 2 GUN
-    // if (Right) Shift, P2 shoots bullet in facing direction
-    if (key == ge211::Key::shift()) {
-
-    }
 }
 
 void
-Controller::on_frame(double dt)
-{
-    // for each frame, update each player's position based on
-    // called collisions, number of hits on each, and whether bullet
-    // has hit a car successfully enough to launch them out of the platform
-}
+Controller::on_key_up(ge211::Key key) {
+    if (key == ge211::Key::left()) {
+    //        model_.p2.theta -= 1;
+       model_.p2_turn_left(false);
+       if (model_.p2.control.turning_left) {
+           printf("P2 rotated left!\npos1{%f,%f; %f}, pos2{%f,%f; %f}\n", model_.p1.center.x, model_.p1.center.y,
+                  model_.p1.theta, model_.p2.center.x,model_.p2.center.y, model_.p2.theta);
+        }
+    }
+    if (key == ge211::Key::right()) {
+        model_.p2_turn_right(false);
+        printf("P2 rotated right!\npos1{%f,%f}, pos2{%f,%f}\n", model_.p1.center.x, model_.p1.center.y,
+        model_.p2.center.x,model_.p2.center.y);
+    }
+    if (key == ge211::Key::up()) {
+        model_.p2_move_forward(false);
+    }
+};

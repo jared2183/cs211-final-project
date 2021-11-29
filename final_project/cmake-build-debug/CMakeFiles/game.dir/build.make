@@ -79,10 +79,38 @@ CMakeFiles/game.dir/src/model.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/model.cxx.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\model.cxx -o CMakeFiles\game.dir\src\model.cxx.s
 
+CMakeFiles/game.dir/src/car.cxx.obj: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/car.cxx.obj: CMakeFiles/game.dir/includes_CXX.rsp
+CMakeFiles/game.dir/src/car.cxx.obj: ../src/car.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/car.cxx.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\car.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\car.cxx
+
+CMakeFiles/game.dir/src/car.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/car.cxx.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\car.cxx > CMakeFiles\game.dir\src\car.cxx.i
+
+CMakeFiles/game.dir/src/car.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/car.cxx.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\car.cxx -o CMakeFiles\game.dir\src\car.cxx.s
+
+CMakeFiles/game.dir/src/ball.cxx.obj: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/ball.cxx.obj: CMakeFiles/game.dir/includes_CXX.rsp
+CMakeFiles/game.dir/src/ball.cxx.obj: ../src/ball.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/ball.cxx.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\ball.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\ball.cxx
+
+CMakeFiles/game.dir/src/ball.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/ball.cxx.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\ball.cxx > CMakeFiles\game.dir\src\ball.cxx.i
+
+CMakeFiles/game.dir/src/ball.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/ball.cxx.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\ball.cxx -o CMakeFiles\game.dir\src\ball.cxx.s
+
 CMakeFiles/game.dir/src/view.cxx.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/view.cxx.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/view.cxx.obj: ../src/view.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/view.cxx.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/view.cxx.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\view.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\view.cxx
 
 CMakeFiles/game.dir/src/view.cxx.i: cmake_force
@@ -96,7 +124,7 @@ CMakeFiles/game.dir/src/view.cxx.s: cmake_force
 CMakeFiles/game.dir/src/controller.cxx.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/controller.cxx.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/controller.cxx.obj: ../src/controller.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/controller.cxx.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/controller.cxx.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\controller.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\controller.cxx
 
 CMakeFiles/game.dir/src/controller.cxx.i: cmake_force
@@ -110,7 +138,7 @@ CMakeFiles/game.dir/src/controller.cxx.s: cmake_force
 CMakeFiles/game.dir/src/main.cxx.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/main.cxx.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/main.cxx.obj: ../src/main.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/main.cxx.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/main.cxx.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\main.cxx.obj -c C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\src\main.cxx
 
 CMakeFiles/game.dir/src/main.cxx.i: cmake_force
@@ -124,6 +152,8 @@ CMakeFiles/game.dir/src/main.cxx.s: cmake_force
 # Object files for target game
 game_OBJECTS = \
 "CMakeFiles/game.dir/src/model.cxx.obj" \
+"CMakeFiles/game.dir/src/car.cxx.obj" \
+"CMakeFiles/game.dir/src/ball.cxx.obj" \
 "CMakeFiles/game.dir/src/view.cxx.obj" \
 "CMakeFiles/game.dir/src/controller.cxx.obj" \
 "CMakeFiles/game.dir/src/main.cxx.obj"
@@ -132,6 +162,8 @@ game_OBJECTS = \
 game_EXTERNAL_OBJECTS =
 
 game.exe: CMakeFiles/game.dir/src/model.cxx.obj
+game.exe: CMakeFiles/game.dir/src/car.cxx.obj
+game.exe: CMakeFiles/game.dir/src/ball.cxx.obj
 game.exe: CMakeFiles/game.dir/src/view.cxx.obj
 game.exe: CMakeFiles/game.dir/src/controller.cxx.obj
 game.exe: CMakeFiles/game.dir/src/main.cxx.obj
@@ -144,7 +176,7 @@ game.exe: C:/MinGW/lib/libSDL2_ttf.dll.a
 game.exe: CMakeFiles/game.dir/linklibs.rsp
 game.exe: CMakeFiles/game.dir/objects1.rsp
 game.exe: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable game.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sinth\OneDrive\Documents\GitHub\cs211-final-project\final_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable game.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\game.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

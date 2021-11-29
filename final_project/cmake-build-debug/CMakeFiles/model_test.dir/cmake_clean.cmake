@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/model_test.dir/src/ball.cxx.obj"
+  "CMakeFiles/model_test.dir/src/car.cxx.obj"
   "CMakeFiles/model_test.dir/src/model.cxx.obj"
   "CMakeFiles/model_test.dir/test/model_test.cxx.obj"
   "libmodel_test.dll.a"

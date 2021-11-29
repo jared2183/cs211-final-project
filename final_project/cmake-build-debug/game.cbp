@@ -382,6 +382,22 @@
 		<Unit filename="C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/.cs211/lib/ge211/src/ge211_window.cxx">
 			<Option target="ge211"/>
 		</Unit>
+		<Unit filename="C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/ball.cxx">
+			<Option target="game"/>
+			<Option target="model_test"/>
+		</Unit>
+		<Unit filename="C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/ball.hxx">
+			<Option target="game"/>
+			<Option target="model_test"/>
+		</Unit>
+		<Unit filename="C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/car.cxx">
+			<Option target="game"/>
+			<Option target="model_test"/>
+		</Unit>
+		<Unit filename="C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/car.hxx">
+			<Option target="game"/>
+			<Option target="model_test"/>
+		</Unit>
 		<Unit filename="C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/controller.cxx">
 			<Option target="game"/>
 		</Unit>

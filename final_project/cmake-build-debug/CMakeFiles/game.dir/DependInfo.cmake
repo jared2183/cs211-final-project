@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/ball.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/game.dir/src/ball.cxx.obj"
+  "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/car.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/game.dir/src/car.cxx.obj"
   "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/controller.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/game.dir/src/controller.cxx.obj"
   "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/main.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/game.dir/src/main.cxx.obj"
   "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/src/model.cxx" "C:/Users/sinth/OneDrive/Documents/GitHub/cs211-final-project/final_project/cmake-build-debug/CMakeFiles/game.dir/src/model.cxx.obj"

@@ -3,7 +3,7 @@
 int
 main()
 {
-    Controller().run();
+    Controller(scene_dims).run();
 
     return 0;
 }
